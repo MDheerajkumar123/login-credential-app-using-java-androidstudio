@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="loading">Loading...</string>
+    <string name="user_display_picture">User Display Picture</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="dob">DOB</string>
+    <string name="gender">Gender</string>
+    <string name="mobile">Mobile</string>
+    <string name="registered_user_since">Registered User Since</string>
+    <string name="upload_pic_u">Upload_Pic_U</string>
+    <string name="update_email_u">Update_Email_U</string>
+    <string name="register">Register</string>
+</resources>
