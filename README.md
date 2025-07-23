@@ -1,65 +1,106 @@
-Login Credential App using Java & Firebase
-This is a secure, full-featured mobile application for Android, built with Java in Android Studio. It provides a complete user authentication system, including registration, login, and password recovery, powered by Google's Firebase Authentication for a secure and reliable backend.
+# Login Credential App Using Java (Android Studio)
 
-📸 Screenshots
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+![Java](https://img.shields.io/badge/Java-Android-orange.svg?logo=java&style=flat-square)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-IDE-3DDC84?logo=android-studio&style=flat-square)
+![Firebase](https://img.shields.io/badge/Firebase-Auth%20%26%20Database-FFA611?logo=firebase&style=flat-square)
+![XML](https://img.shields.io/badge/XML-Layout-8A4182?logo=xml&style=flat-square)
 
-<img width="276" height="596" alt="Screenshot 2025-07-22 154708" src="https://github.com/user-attachments/assets/28f76be9-1ada-47c1-becc-dbf5f3bc016c" />  
-<img width="276" height="596" alt="Screenshot 2025-07-22 154458" src="https://github.com/user-attachments/assets/7226c877-4427-4374-89f3-95ba651982ba" />  
-<img width="276" height="596" alt="Screenshot 2025-07-22 154738" src="https://github.com/user-attachments/assets/93539aae-0f8d-4b67-9e8a-2f2630113cfb" />
-     
+> A simple Android app for login and credential management, built with Java, Android Studio, and Firebase.
 
+---
 
-Export to Sheets
-✨ Key Features
-Secure User Registration: New users can create an account with their email and password.
+## Table of Contents
 
-User Login: Registered users can sign in to access the application.
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Generator](#generator)
+- [Badge](#badge)
+- [Example Readmes](#example-readmes)
+- [Related Efforts](#related-efforts)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
 
-Password Recovery: A "Forgot Password" feature allows users to securely reset their password via email.
+---
 
-Logout Functionality: Users can safely sign out of their accounts.
+## Background
 
-Firebase Integration: Utilizes Firebase Authentication for all backend user management, ensuring data is stored securely.
+This project is a basic Android application that demonstrates how to implement user authentication, credential storage, and validation using Java and Firebase. It serves as a learning resource for beginners in Android development and secure login flows.
 
-User-Friendly Interface: A clean and intuitive UI designed with XML for a seamless user experience.
+---
 
-💻 Tech Stack
-Frontend: Java, XML (for UI Layout)
+## Install
 
-Backend: Firebase Authentication
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/MDheerajkumar123/login-credential-app-using-java-androidstudio.git
+   cd login-credential-app-using-java-androidstudio
+   ```
+2. **Open in Android Studio**:
+   - Launch Android Studio.
+   - Open the project folder.
+3. **Set up Firebase**:
+   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+   - Add an Android app and download the `google-services.json` file.
+   - Place `google-services.json` in the `app/` directory.
+   - Enable Firebase Authentication (Email/Password) in the Firebase Console.
+4. **Build the project**:
+   - Let Gradle sync and build all dependencies.
+5. **Run the app**:
+   - Use an emulator or a physical Android device.
 
-IDE: Android Studio
+---
 
-Version Control: Git & GitHub
+## Usage
 
-🚀 How to Set Up and Run the Project
-To run this project on your own system, you will need to connect it to your own Firebase project.
+- Launch the app on your device.
+- Register a new user with email/username and password.
+- Use the login screen to authenticate.
+- Credentials are stored securely using Firebase Authentication.
 
-Clone the repository:
+---
 
-git clone https://github.com/MDheerajkumar123/login-credential-app-using-java-androidstudio.git
-Open in Android Studio: Open the cloned project folder in Android Studio.
+## Generator
 
-Create a Firebase Project:
+To create a standard-compliant README for your project, use [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme):
 
-Go to the Firebase Console.
+```sh
+npx generator-standard-readme
+```
 
-Click "Add project" and follow the on-screen instructions.
+---
 
-Connect Your App to Firebase:
+## Badge
 
-In Android Studio, go to Tools > Firebase.
+Display your standard-readme compliance:
 
-The Firebase Assistant will open. Click on Authentication > Email and Password Authentication.
+```markdown
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+```
 
-Click "Connect to Firebase" and select the project you just created.
+---
 
-Follow the prompts to add the necessary dependencies to your app.
+## Example Readmes
 
-Enable Email/Password Authentication:
+- [standard-readme example](https://github.com/RichardLitt/standard-readme/blob/master/example-readmes/)
 
-In the Firebase Console, go to the Authentication section.
+---
 
-On the "Sign-in method" tab, enable the Email/Password provider.
+## Related Efforts
 
-Run the Application: Build and run the app on an Android emulator or a physical device.
+- [Android Developer Guide: Data Storage](https://developer.android.com/training/data-storage)
+- [Firebase Authentication for Android](https://firebase.google.com/docs/auth/android/start)
+
+---
+
+## Maintainers
+
+- [MDheerajkumar123](https://github.com/MDheerajkumar123)
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open an issue or pull request to discuss improvements or new features.
